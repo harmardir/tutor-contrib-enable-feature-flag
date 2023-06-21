@@ -1,0 +1,2 @@
+recursive-include tutorenable_feature_flag/patches *
+recursive-include tutorenable_feature_flag/templates *
