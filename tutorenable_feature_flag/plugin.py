@@ -20,6 +20,7 @@ hooks.Filters.CONFIG_DEFAULTS.add_items(
         # Each new setting is a pair: (setting_name, default_value).
         # Prefix your setting names with 'ENABLE_FEATURE_FLAG_'.
         ("ENABLE_FEATURE_FLAG_VERSION", __version__),
+        ("STUDIO_REQUEST_EMAIL", "admin@example.com"),
     ]
 )
 
